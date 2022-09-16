@@ -13,7 +13,7 @@ update.packages() #all packages
 install.packages("packagename") #to update only a specific package
 
 #Unload a package
-detach("package:ggplot2", unload=TRUE)
+detach("package:ggplot2", unload=TRUE) 
 
 #Uninstalling packages
 remove.packages("ggplot2")
